@@ -1,5 +1,9 @@
 # vim
-VIm settings
+Setup vim for Python
+The `.vimrc` file comes from: http://fisadev.github.io/fisa-vim-config/
 
-From this guy: http://fisadev.github.io/fisa-vim-config/
+To set it all up:
+`sudo ./configure.sh`
 
+*Make sure the script has execute permissions:*
+`chmod +x configure.sh`
