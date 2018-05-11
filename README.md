@@ -4,7 +4,7 @@ The `.vimrc` file comes from: http://fisadev.github.io/fisa-vim-config/
 
 To set it all up:
 ```
-sudo ./configure.sh
+sudo -E ./configure.sh
 ```
 
 *Make sure the script has execute permissions:*
