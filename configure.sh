@@ -1,4 +1,4 @@
-#! /usr/bin/env bash
+# /usr/bin/env bash
 
 #non interactivity
 DEBIAN_FRONTEND=noninteractive
@@ -14,6 +14,7 @@ apt-get install -y \
 
 sudo python -m pip install pep8 flake8 pyflakes isort yapf
 
-cp .vimrc $HOME/.vimrc
+[ -f ~/.vimrc ] && echo ".vimrc already exists, renaming it to: .vimrc-old" && mv ~/.vimrc ~/.vimrc-old 
+cp .vimrc ~/.vimrc 
 
 echo "done"
