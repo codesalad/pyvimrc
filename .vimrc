@@ -31,6 +31,10 @@ endif
 call plug#begin('~/.vim/plugged')
 
 " Plugins from github repos:
+"
+
+" Copilot
+Plug 'github/copilot.vim'
 
 " Override configs by directory 
 Plug 'arielrossanigo/dir-configs-override.vim'
@@ -75,11 +79,11 @@ Plug 'Shougo/neocomplcache.vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
 Plug 'honza/vim-snippets'
-Plug 'garbas/vim-snipmate'
+" Plug 'garbas/vim-snipmate'
 " Git/mercurial/others diff icons on the side of the file lines
 Plug 'mhinz/vim-signify'
 " Automatically sort python imports
-Plug 'fisadev/vim-isort'
+"Plug 'fisadev/vim-isort'
 " Drag visual blocks arround
 Plug 'fisadev/dragvisuals.vim'
 " Window chooser
@@ -408,3 +412,4 @@ let g:airline#extensions#whitespace#enabled = 0
 "let g:airline_symbols.readonly = '⭤'
 "let g:airline_symbols.linenr = '⭡'
 
+set backspace=indent,eol,start

@@ -12,8 +12,6 @@ apt-get install -y \
 	vim \
 	curl vim exuberant-ctags git ack-grep \
 
-sudo python -m pip install pep8 flake8 pyflakes isort yapf
-
 [ -f ~/.vimrc ] && echo ".vimrc already exists, renaming it to: .vimrc-old" && mv ~/.vimrc ~/.vimrc-old 
 cp .vimrc ~/.vimrc 
 
